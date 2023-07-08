@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- *******************Font awesome CDN **************************** -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container-fluid m-0 ">
+        <div class="container-fluid main justify-content-center">
+            <div class="row d-flex">
+                <div class="col-md-1 m-1 left">
+
+                    <div class="options p-4 m-4">
+                        <div class="icon-box" style="background-color: #a9b7d2;">
+                            <span style="color: blue;">p</span>
+                        </div>
+                    </div>
+
+
+                    <div class="options m-4 ">
+
+                        <i class="fa-solid fa-house p-4"></i>
+
+
+                        <i class="fa-solid fa-bars p-4"></i>
+
+
+                        <i class="fa-solid fa-chart-simple p-4"></i>
+
+
+                        <i class="fa-solid fa-gear p-4"></i>
+
+
+                        <i class="fa-solid fa-gear p-4"></i>
+
+                    </div>
+
+
+
+
+                    <div class="options p-4 m-4">
+                        <div class="icon-box" style="background-color: rgb(142, 164, 150);">
+                            <span style="color: blue;">M</span>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-7  justify-content-between" style="margin-left: 77px;">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div class="container-fluid search">
+                                <div class="d-flex m-1">
+                                    <div class="m-1">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                    <input class="input" placeholder="Search transaction">
+                                    <div>
+                                        <span class="nav-link dropdown-toggle filter" data-bs-toggle="dropdown">
+                                            filter
+                                        </span>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="bell">
+                            <i class="fa-solid fa-bell m-4"></i>
+                        </div>
+                    </div>
+
+                    <h5 class="mt-4">Send Money</h5>
+
+                    <div class="d-flex justify-content-between">
+                        <div class="card card-box " style="width: 27rem;">
+
+                            <div class="card-body   justify-content-between">
+                                <div class="d-flex justify-content-between">
+                                    <span class="nav-link dropdown-toggle visa-det" data-bs-toggle="dropdown">
+                                        5664**88877
+                                    </span>
+
+                                    <span>
+                                        <h6>Amount</h6>
+                                        <span>$800.00</span>
+                                    </span>
+                                </div>
+                                <div class="d-flex justify-content-between active-bal">
+
+
+                                    <div class="pt-4 mt-4">
+                                        <h6>Active balance $18,350</h6>
+                                    </div>
+                                    <div class="pt-2 mt-4">
+                                        <button class="btn btn-primary">send money</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card card-box " style="width: 27rem;">
+
+                            <div class="card-body  visa-card">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6>Monthly Balance</h6>
+                                        <div class="pt-2 mt-4">$800.00</div>
+                                    </div>
+                                    <div>
+                                        <div class="mr-4 pr-4">...</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="progress-bar">
+                                        <div class="progress"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-4">
+                        <div class="card card-box" style="width: 23rem;">
+
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="icon-box" style="color: green;">
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                    <div>
+                                        <h6>$8.416</h6>
+                                        <p class="mt-2" style="color: grey;">income in this month</p>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex justify-content-between mt-4">
+                                    <p style="color: grey;">Balance by up to</p>
+                                    <p style="color: green;">+12.24</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-box " style="width: 23rem;">
+
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="icon-box" style="color: orange;">
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                    </div>
+                                    <div>
+                                        <h6>$8.416</h6>
+                                        <p class="mt-2" style="color: grey;">income in this month</p>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex justify-content-between mt-4">
+                                    <p style="color: grey;">Balance by down to</p>
+                                    <p style="color: red;">-12.24</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-box" style="width: 23rem;">
+
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div class="icon-box" style="color: rgb(36, 36, 209);">
+                                        <i class="fa-solid fa-circle-down"></i>
+                                    </div>
+                                    <div>
+                                        <h6>$8.416</h6>
+                                        <p class="mt-2" style="color: grey;">income in this month</p>
+                                    </div>
+
+                                </div>
+                                <div class="d-flex justify-content-between mt-4">
+                                    <p style="color: grey;">Balance by up to</p>
+                                    <p style="color: green;">+12.24</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+
+                        <h5 class="mt-4">Balance Analytics</h5>
+                        <h5 class="mt-4 " style="margin-left: 330px;">Investment</h5>
+                    </div>
+                    <div class="d-flex justify-content-between ">
+
+                        <div class="card card-box  mt-4 pt-4" style="width: 27rem; ">
+                            <div class="d-flex">
+                                <span class="p-1 ml-1 visa-det">
+                                    Income
+                                </span>
+                                <span class="p-1 visa-det dropdown-toggle visa-det" style="margin-left: 280px;"
+                                    data-bs-toggle="dropdown">
+                                    By Day
+                                </span>
+                            </div>
+
+                            <canvas id="myChart" class="mt-2" style="width:100%;max-width:600px"></canvas>
+
+                            <script>
+                                const xValues = [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150];
+                                const yValues = [7, 8, 8, 9, 9, 9, 10, 11, 14, 14, 15];
+
+                                new Chart("myChart", {
+                                    type: "line",
+                                    data: {
+                                        labels: xValues,
+                                        datasets: [{
+                                            fill: false,
+                                            lineTension: 0,
+                                            backgroundColor: "rgba(0,0,255,1.0)",
+                                            borderColor: "rgba(0,0,255,0.1)",
+                                            data: yValues
+                                        }]
+                                    },
+                                    options: {
+                                        legend: { display: false },
+                                        scales: {
+                                            yAxes: [{ ticks: { min: 6, max: 16 } }],
+                                        }
+                                    }
+                                });
+                            </script>
+
+
+
+                        </div>
+                        <div class="d-block ">
+
+
+                            <div class="d-flex justify-content-between">
+
+
+                                <div class="card card-box mt-2 " style="width: 27rem;">
+
+                                    <div class="card-body   justify-content-between">
+                                        <div class="d-flex pt-4 justify-content-between">
+                                            <div class="d-flex">
+                                                <div class="icon-box" style="background-color: beige;">
+                                                    <i class="fa-brands fa-apple"></i>
+                                                </div>
+                                                <div>
+                                                    <h6>AAPL</h6>
+                                                    <p style="color: gray; font-size: 12px;">Aapl inc .</p>
+                                                </div>
+                                            </div>
+                                            <div style="color: green;">
+                                                +24.459
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+                                <div class="card card-box mt-2 " style="width: 27rem;">
+                                    <div class="card-body   justify-content-between">
+                                        <div class="d-flex pt-4 justify-content-between">
+                                            <div class="d-flex">
+                                                <div class="icon-box" style="background-color: beige; color: rgb(191, 154, 51);">
+                                                    <i class="fa-brands fa-google"></i>
+
+                                                </div>
+                                                <div>
+                                                    <h6>GOOG</h6>
+                                                    <p style="color: gray; font-size: 12px;">Aapl inc .</p>
+                                                </div>
+                                            </div>
+                                            <div style="color: red;">
+                                                -28.459
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="d-flex justify-content-between">
+
+                                <div class="card card-box mt-2 " style="width: 27rem;">
+                                    <div class="card-body   justify-content-between">
+                                        <div class="d-flex pt-4 justify-content-between">
+                                            <div class="d-flex">
+                                                <div>
+
+                                                    <div class="icon-box" style="background-color: beige; color: rgb(51, 93, 191);">
+                                                        <i class="fa-brands fa-facebook"></i>
+
+                                                    </div>
+
+                                                </div>
+                                                <div>
+                                                    <h6>GOOG</h6>
+                                                    <p style="color: gray; font-size: 12px;">Goog inc .</p>
+                                                </div>
+                                            </div>
+                                            <div style="color: green;">
+                                                +28.459
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="right-bar">
+
+                        <div class="pt-3">
+                            <h4>👋 Hello, Barly Vallendito</h4>
+                            <p style="color: gray;"> welcome, to the pocket dashboard</p>
+                        </div>
+
+                        <div class="mt-4 p-4">
+                            <h5>My Card</h5>
+
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <img src="visa.png" width="150px" style="border-radius: 10px;" alt="">
+                                </div>
+
+                                <div>
+                                    <h4>$81.78</h4>
+                                    <span style="color: gray; ">Active Balance</span>
+                                </div>
+                            </div>
+
+
+                            <div class="d-flex justify-content-between">
+                                <h6 class="mt-3">Recent Transaction</h6>
+                                <span style="color: rgb(181, 174, 174); font-size: 30px; ">...</span>
+                            </div>
+
+
+                            <div class=" mt-4">
+                                <div class="d-flex pt-4 justify-content-between">
+                                    <div class="d-flex">
+                                        <div class="icon-box" style="background-color: beige;">
+                                            <span style="color: blue;">p</span>
+                                        </div>
+                                        <div>
+                                            <div>Paypal LTD</div>
+                                            <p style="color: gray; font-size: 12px;">08 march 2020</p>
+                                        </div>
+                                    </div>
+                                    <div style="color: green;">
+                                        +24.459
+                                    </div>
+                                </div>
+                                <div class="d-flex  pt-4 justify-content-between">
+                                    <div class="d-flex">
+                                        <div class="icon-box" style="background-color: beige;">
+                                            <span style="color: blue;">R</span>
+                                        </div>
+                                        <div>
+                                            <div>Roketto Coffee</div>
+                                            <p style="color: gray; font-size: 12px;">08 march 2020</p>
+                                        </div>
+                                    </div>
+                                    <div style="color: red;">
+                                        -$24.459
+                                    </div>
+                                </div>
+                                <div class="d-flex pt-4 justify-content-between">
+                                    <div class="d-flex">
+                                        <div class="icon-box" style="background-color: beige;">
+                                            <span style="color: blue;">U</span>
+                                        </div>
+                                        <div>
+                                            <div>UI kit Sales</div>
+                                            <p style="color: gray; font-size: 12px;">07 march 2020</p>
+                                        </div>
+                                    </div>
+                                    <div style="color: green;">
+                                        +24.459
+                                    </div>
+                                </div>
+                                <div class="d-flex  pt-4 justify-content-between">
+                                    <div class="d-flex">
+                                        <div class="icon-box" style="background-color: beige;">
+                                            <span style="color: blue;">R</span>
+                                        </div>
+                                        <div>
+                                            <div>Robucca Coffee</div>
+                                            <p style="color: gray; font-size: 12px;">06 march 2020</p>
+                                        </div>
+                                    </div>
+                                    <div style="color: red;">
+                                        +24.459
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 pt-4">
+                                <h6>Find Us</h6>
+
+                                <div class="mapouter">
+                                    <div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas"
+                                            src="https://maps.google.com/maps?q=india&t=&z=8&ie=UTF8&iwloc=&output=embed"
+                                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                            href="https://2yu.co"></a><br>
+                                        <style>
+                                            .mapouter {
+                                                position: relative;
+                                                text-align: right;
+                                                height: 100%;
+                                                width: 100%;
+                                            }
+
+
+                                            .gmap_canvas {
+                                                overflow: hidden;
+                                                background: none !important;
+                                                height: 100%;
+                                                width: 100%;
+                                            }
+
+                                        </style>
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

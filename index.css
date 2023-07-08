@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #bdd3f4;
+}
+
+.main {
+    background-color: #f5f6fa;
+    padding: 30px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+
+.left {
+    background-color: #002a7a;
+    border-radius: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.options {
+    color: #f5f6fa;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+     font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+}
+.search{
+    background-color:#ffffff;
+    border-radius: 20px;
+    border: 0.5px  solid rgb(238, 234, 234);
+    width: fit-content;
+    /* margin-left: 70px; */
+}
+.input{
+    border: none;
+    background-color:#ffffff;
+}
+.fa-magnifying-glass{
+  color:#959598 ;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+.filter{
+    color: #163d8a !important;
+    background-color: #cad4e4;
+    border-radius: 8px;
+
+}
+.bell{
+    color: #bcb4b4;
+    width: 50px;
+    height: 50px;
+    background-color:#ffffff;
+    border: 1px solid  #bcbdc3;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+.visa-det{
+    border: 1px solid rgb(225, 221, 221);
+    border-radius: 8px;
+    width: fit-content;
+    color: #959598;
+}
+.card-box{
+    border-radius: 20px !important;
+    border:1px solid #ffffff;
+    margin-right: 20px;
+}
+.active-bal{
+    color: #959598;
+}
+.visa-card{
+    background-color:#0a327f !important;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.progress-bar {
+    background-color: #F2F2F2;
+    margin-top:20px ;
+    width: 400px;
+    height: 12px;
+    border-radius: 10px;
+  }
+  .progress {
+    background-color: #0E6FDF;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+  }
+.icon-box{
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #dde8d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-bar{
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-left: 12px;
+    padding-left: 20px;
+}
+
+
